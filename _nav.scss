@@ -1,0 +1,18 @@
+nav {
+    position: fixed;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+
+    /* background-image:   linear-gradient(to bottom, rgba(0, 12, 80, 0.52), rgba(24, 5, 170, 0.73)); */
+    .navbar {
+        color: white;
+    }
+
+    .download-btn {
+        height: 3rem;
+        width: 8rem;
+        border: 1px solid white;
+        border-radius: 1rem;
+    }
+}
