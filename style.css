@@ -397,6 +397,9 @@ nav #menu {
   border: 2px solid rgba(255, 255, 255, 0.562);
 }
 
+.content1 {
+  overflow: hidden;
+}
 .content1 .card-wrapper {
   flex-wrap: wrap;
   justify-content: center;
@@ -409,6 +412,7 @@ nav #menu {
 }
 
 .content2 {
+  overflow: hidden;
   background-image: linear-gradient(to right, #000529 1%, #002055 24%, rgba(0, 94, 181, 0.5215686275) 67%, rgba(0, 116, 217, 0.8705882353) 100%), url("https://preview.colorlib.com/theme/prantokon/prantokon/assets/img/feature-bg.jpg.webp");
   background-size: cover;
   background-attachment: fixed;
@@ -438,6 +442,9 @@ nav #menu {
   margin: auto;
 }
 
+.content3 {
+  overflow: hidden;
+}
 .content3 .container:nth-of-type(1) {
   flex: 1;
 }
@@ -469,6 +476,7 @@ nav #menu {
 }
 
 .content4 {
+  overflow: hidden;
   background-image: linear-gradient(to right, #000529 1%, #002055 24%, rgba(0, 94, 181, 0.5137254902) 67%, rgba(0, 116, 217, 0.7529411765) 100%), url("https://preview.colorlib.com/theme/prantokon/prantokon/assets/img/video-overview.jpg.webp");
   background-size: cover;
   background-position: 0px;
@@ -477,6 +485,9 @@ nav #menu {
   min-height: 30rem;
 }
 
+.content5 {
+  overflow: hidden;
+}
 .content5 .flex-wrapper {
   max-width: 800px;
   width: 100%;
@@ -487,6 +498,7 @@ nav #menu {
 }
 
 .content6 {
+  overflow: hidden;
   background-image: linear-gradient(to right, #000529 1%, #002055 24%, rgba(0, 94, 181, 0.5137254902) 67%, rgba(0, 116, 217, 0.7529411765) 100%), url("https://preview.colorlib.com/theme/prantokon/prantokon/assets/img/price-bg.jpg.webp");
   background-size: cover;
   background-attachment: fixed;
@@ -524,6 +536,7 @@ nav #menu {
 }
 
 .content8 {
+  overflow: hidden;
   background-image: linear-gradient(to right, #000529 1%, #002055 24%, rgba(0, 94, 181, 0.5137254902) 67%, rgba(0, 116, 217, 0.7529411765) 100%), url("https://preview.colorlib.com/theme/prantokon/prantokon/assets/img/video-overview.jpg.webp");
   background-size: cover;
   background-position: 0px;
@@ -554,6 +567,9 @@ nav #menu {
   background-color: #005db5;
 }
 
+.content9 {
+  overflow: hidden;
+}
 .content9 .subtitle {
   max-width: 400px;
   margin: auto;
@@ -590,6 +606,9 @@ nav #menu {
   max-width: 50rem;
 }
 
+.content11 {
+  overflow: hidden;
+}
 .content11 .subtitle {
   max-width: 450px;
   margin: auto;
@@ -606,6 +625,7 @@ nav #menu {
 }
 
 footer {
+  overflow: hidden;
   background: linear-gradient(to right, #000529 1%, #002055 24%, #005db5 67%, #0074d9 100%);
   padding-block: 10rem;
 }
