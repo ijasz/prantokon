@@ -5,7 +5,29 @@
     background-attachment: fixed;
     color: white;
 
-    .flex-wrapper {
+    .grid-wrapper {
+        display: grid;
         padding-block: 4rem;
+        grid-template-columns: repeat(3, 1fr);
+
+        @include mq(850px) {
+            grid-template-columns: 1fr;
+
+        }
+
+        >div {
+            align-self: center;
+
+            @include mq(850px) {
+                margin: auto;
+
+            }
+        }
+
+        img {
+            width: 100%;
+            max-width: 300px;
+            margin: auto;
+        }
     }
 }

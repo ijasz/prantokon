@@ -1,13 +1,20 @@
 .cover-image {
-    min-height: 50rem;
+    padding-top: 10rem;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-
     background-image: linear-gradient(to right, #000529 1%, #002055 24%, #005db5 67%, #0074d9 100%),
         url("https://preview.colorlib.com/theme/prantokon/prantokon/assets/img/hero-area.jpg.webp");
     color: white;
-    align-items: flex-end;
+
+    .grid-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        @include mq(800px) {
+            grid-template-columns: 1fr;
+        }
+    }
 
     article {
         margin-block-end: 6rem;
@@ -16,6 +23,10 @@
 
     img {
         max-width: 37rem;
+
+        @include mq(800px) {
+            justify-self: end;
+        }
     }
 
     .btn {

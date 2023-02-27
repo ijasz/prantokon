@@ -9,10 +9,20 @@
         max-width: 40rem;
     }
 
-    .card-wrapper .card {
-        width: 300px;
-        max-width: 300px;
-        border: 1px solid rgba(0, 0, 0, 0.182);
+    .card-wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        width: 100%;
+        // background-color: red;
+
+        @include mq(800px) {
+            grid-template-columns: repeat(1, 1fr);
+
+        }
+
+        .card {
+            border: 1px solid rgba(0, 0, 0, 0.182);
+        }
     }
 
     .details> :not(p:nth-last-of-type(1)) {
