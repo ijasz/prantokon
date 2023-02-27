@@ -380,6 +380,7 @@ nav #menu {
   max-width: 48rem;
 }
 .cover-image img {
+  width: 100%;
   max-width: 37rem;
 }
 @media (max-width: 800px) {
@@ -613,13 +614,23 @@ footer input {
   padding-block: 1rem;
   border-radius: 1rem;
 }
-footer .circle {
+footer .grid-icon {
+  gap: 1rem;
+}
+footer .grid-icon .circle {
   height: 6rem;
   width: 6rem;
-  border: 2px solid white;
+  border: 1px solid white;
   border-radius: 50%;
 }
-footer .circle img {
+@media (max-width: 450px) {
+  footer .grid-icon .circle {
+    font-size: 1rem;
+    height: 4rem;
+    width: 4rem;
+  }
+}
+footer .grid-icon .circle img {
   max-width: 4rem;
 }
 footer .btn {
