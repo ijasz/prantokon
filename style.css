@@ -358,6 +358,7 @@ nav #menu {
 }
 
 .cover-image {
+  overflow: hidden;
   padding-top: 10rem;
   width: 100%;
   background-repeat: no-repeat;
@@ -596,6 +597,7 @@ nav #menu {
 }
 
 .content10 {
+  overflow: hidden;
   min-height: 30rem;
   background-image: linear-gradient(to right, #000529 1%, #002055 24%, rgba(0, 94, 181, 0.5137254902) 67%, rgba(0, 116, 217, 0.7529411765) 100%), url("https://preview.colorlib.com/theme/prantokon/prantokon/assets/img/video-overview.jpg.webp");
   background-size: cover;
